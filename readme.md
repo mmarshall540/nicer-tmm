@@ -27,7 +27,7 @@ This package for Emacs improves the built-in `tmm-menubar`
 - Prevents double menus from appearing when a minibuffer completion
   package is enabled and configured to appear before input.  (For
   example, when `icomplete-vertical-mode` is on with
-  `icomplete-show-matches-on-no-input' enabled.)
+  `icomplete-show-matches-on-no-input` enabled.)
 
 # Configuration
 
@@ -53,9 +53,9 @@ need to use `customize-set-variable` (not `setq`) for that.
 In Emacs, the default binding for `tmm-menubar` is "M-\`".  In some
 desktop environments, that key is used for navigating between
 applications.  So you may want to create an additional keybinding for
-`tmm-menubar`.  One candidate for this is "<f10>", which by default
+`tmm-menubar`.  One candidate for this is "\<f10\>", which by default
 brings up a graphical menu.  (Another potential candidate is the
-"<menu>" key.)
+"\<menu\>" key.)
 
 `(global-set-key (kbd "<menu>") 'tmm-menubar)`
 
